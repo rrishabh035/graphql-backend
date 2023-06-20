@@ -1,0 +1,29 @@
+{
+  "name": "graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrishabh035/graphql-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrishabh035/graphql-backend/issues"
+  },
+  "homepage": "https://github.com/rrishabh035/graphql-backend#readme",
+  "dependencies": {
+    "@apollo/server": "^4.7.4",
+    "@types/node": "^20.3.1",
+    "graphql": "^16.6.0",
+    "graphql-type-json": "^0.3.2",
+    "typescript": "^5.1.3"
+  }
+}
